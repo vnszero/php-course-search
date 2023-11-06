@@ -1,0 +1,16 @@
+{
+    "name": "vnszero/course-search",
+    "description": "search library to find php course in Alura's site",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius N. Silva",
+            "email": "vnszero@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^6.3"
+    }
+}
