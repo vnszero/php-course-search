@@ -1,6 +1,5 @@
 <?php
     require 'vendor/autoload.php';
-    require 'src/Engine.php';
 
     use GuzzleHttp\Client;
     use Symfony\Component\DomCrawler\Crawler;
@@ -14,7 +13,9 @@
 
     foreach ($courses as $course)
     {
-        echo $course . PHP_EOL;
+        Formats::method();
+        show_message($course);
+        FormatsAlternative::method();
     }
 
 ?>

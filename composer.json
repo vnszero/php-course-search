@@ -13,5 +13,16 @@
         "guzzlehttp/guzzle": "^7.8",
         "symfony/dom-crawler": "^6.3",
         "symfony/css-selector": "^6.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./legacy/Formats.php"
+        ],
+        "files": [
+            "./legacy/functions.php"
+        ],
+        "psr-4": {
+            "Alura\\Engine\\": "src/"
+        }
     }
 }
